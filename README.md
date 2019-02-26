@@ -1,4 +1,4 @@
-# PdfViewer
+# PDF Viewer
 PDF Viewer is a windows PDF reader application with built-in dictionary support.
 When a word is selected on the document, it is looked up in the dictionary and its meaning is added as an annotation comment.
 
