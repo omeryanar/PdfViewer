@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="PdfViewer.SplashView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Width="512" Height="512" Background="Transparent">
+
+    <Grid>
+        <Image Width="512" Height="512" Source="/Assets/SplashScreen.png" />
+        <TextBlock Margin="115,200,0,0" Foreground="White" FontSize="40" Text="PDF Viewer" />
+        <TextBlock Margin="118,250,0,0" Foreground="White" FontSize="15" Text="with built-in dictionary lookup" />
+        <TextBlock Margin="115,280,0,0" Foreground="White" Text="{Binding State}" />
+    </Grid>
+
+</UserControl>

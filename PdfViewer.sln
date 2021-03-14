@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfViewer", "PdfViewer\PdfViewer.csproj", "{8F48F5F6-25EB-4FAB-8323-0F2AA0389BD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{560E11A4-4BAA-4012-9938-792DD6022273}"
+	ProjectSection(SolutionItems) = preProject
+		Library\LiteDB.dll = Library\LiteDB.dll
+		Library\NLog.dll = Library\NLog.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F48F5F6-25EB-4FAB-8323-0F2AA0389BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F48F5F6-25EB-4FAB-8323-0F2AA0389BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F48F5F6-25EB-4FAB-8323-0F2AA0389BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F48F5F6-25EB-4FAB-8323-0F2AA0389BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAE16356-F4F2-425E-9F47-23CF31973E36}
+	EndGlobalSection
+EndGlobal
